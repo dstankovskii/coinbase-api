@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dstan\\Documents\\Projects\\coinbase-api\\COINBASE.API\\COINBASE.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dstan\\Documents\\Projects\\coinbase-api\\COINBASE.API\\COINBASE.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dstan\\Documents\\Projects\\coinbase-api\\COINBASE.API\\COINBASE.API.csproj",
+        "projectName": "COINBASE.API",
+        "projectPath": "C:\\Users\\dstan\\Documents\\Projects\\coinbase-api\\COINBASE.API\\COINBASE.API.csproj",
+        "packagesPath": "C:\\Users\\dstan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dstan\\Documents\\Projects\\coinbase-api\\COINBASE.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dstan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\mintnftdev\\account-svc\\mintnft.account\\nuget": {},
+          "c:\\mintnftdev\\chain\\mintnft.chain\\nuget": {},
+          "c:\\mintnftdev\\wallet-svc\\mintnft.wallet\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Coinbase.Commerce": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
